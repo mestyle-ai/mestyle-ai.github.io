@@ -17,6 +17,7 @@ export default function Index() {
       <Container>
         <Intro />
         <AppList />
+        {/* Disable blog for now as we don't have any story.
         <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}
@@ -26,6 +27,7 @@ export default function Index() {
           excerpt={heroPost.excerpt}
         />
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        */}
       </Container>
     </main>
   );
