@@ -50,11 +50,10 @@ function RelifePreview() {
       With ReLife app, you can reimaging yourself in different lifestyle.
     </p>
     <Link href="https://play.google.com/store/apps/details?id=com.mestyle.relife.relife_app">
-      Play Store
+      <Image src="/assets/banner/play_store.png" alt="Play Store" width={150} height={100} className="mb-1"></Image>
     </Link>
-    <br></br>
     <Link href="https://apps.apple.com/th/app/relife-ai/id6569248714">
-      App Store
+      <Image src="/assets/banner/app_store.svg" alt="App Store" width={150} height={100}></Image>
     </Link>
     </div>
   )
