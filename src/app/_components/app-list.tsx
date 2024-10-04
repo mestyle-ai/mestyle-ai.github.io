@@ -52,6 +52,10 @@ function RelifePreview() {
     <Link href="https://play.google.com/store/apps/details?id=com.mestyle.relife.relife_app">
       Play Store
     </Link>
+    <br></br>
+    <Link href="https://apps.apple.com/th/app/relife-ai/id6569248714">
+      App Store
+    </Link>
     </div>
   )
 }
