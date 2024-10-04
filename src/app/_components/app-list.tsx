@@ -40,7 +40,7 @@ function RelifePreview() {
       height={630}
     />
     <h3 className="text-3xl mb-3 leading-snug">
-      <Link href={`/posts/`} className="hover:underline">
+      <Link href="#" className="hover:underline">
         Relife AI
       </Link>
     </h3>
