@@ -1,6 +1,4 @@
 import cn from "classnames";
-import { AppPreview } from "./app-preview";
-import { getAllPosts } from "@/lib/api";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -60,8 +58,6 @@ function RelifePreview() {
 
 
 export function AppList() {
-  const allPosts = getAllPosts();
-  const morePosts = allPosts.slice(1);
   return (
     <section>
       <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
