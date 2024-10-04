@@ -26,3 +26,10 @@ export function getAllPosts(): Post[] {
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
 }
+
+export function getMarkdownContent(path: string) {
+  const fullPath = join(process.cwd(), path);
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const { data, content } = matter(fileContents);
+  return content;
+}
