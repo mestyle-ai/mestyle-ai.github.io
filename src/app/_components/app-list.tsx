@@ -1,6 +1,7 @@
 import cn from "classnames";
 import Link from "next/link";
 import Image from "next/image";
+import Script from "next/script";
 
 function WadwaiPreview() {
   return (
@@ -23,6 +24,9 @@ function WadwaiPreview() {
       Wadwai is AI chatbot on LINE messenger app. With its simple chat interface,
       you can use it to draw any kinds of image (e.g. realistic portrait, anime, artworks, etc.)
     </p>
+    <Link href="https://line.me/ti/p/%40wadwai">
+      <Image src="/assets/banner/line-add-friend-button.jpg" alt="Add friend" width={150} height={100} className="mb-1"></Image>
+    </Link>
     </div>
   )
 }
