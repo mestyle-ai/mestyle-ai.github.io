@@ -7,13 +7,13 @@ function WadwaiPreview() {
   return (
     <div>
     <Image
-      src="/assets/blog/preview/cover.jpg"
+      src="/assets/blog/preview/wadwai-cover.webp"
       alt={`Cover Image for Wadwai`}
       className={cn("shadow-sm w-full", {
         "hover:shadow-lg transition-shadow duration-200": "Wadwai",
       })}
-      width={1300}
-      height={630}
+      width={1000}
+      height={500}
     />
     <h3 className="text-3xl mb-3 leading-snug">
       <Link href="https://wadwai.com/" className="hover:underline">
@@ -35,7 +35,7 @@ function RelifePreview() {
   return (
     <div>
     <Image
-      src="/assets/blog/preview/cover.jpg"
+      src="/assets/blog/preview/relife-cover.png"
       alt={`Cover Image for Relife AI`}
       className={cn("shadow-sm w-full", {
         "hover:shadow-lg transition-shadow duration-200": "Relife AI",
